@@ -1,0 +1,95 @@
+Pre-requisite
+ 1 - We need Git desktop installer on our machine - download Git
+ 2 - Download and Install Tortoise Git
+ 3 - You need User & Password for GitHub.com, signup
+
+Scenario 1 - Rashmi is automation tester and she is working on medoflox 
+		project individually, regularly she has to share her code
+		on github/shared repository. She join recently & already her
+		Organization has existing framework.
+Niranjan as a lead shared framework repository URl before she starts
+https://github.com/maheshupadhyayn/framework.git
+
+Steps:-
+1 - Git Clone - Bring remote repository to local repository (1 time activity through out carrier with that Org)
+2 - Create new Branch - for new work
+3 - Switch to new branch
+4 - Implementation - POM(Locator, Action, Test)
+5 - Git Commit - Save all changes on local branch
+6 - Git Push - Push all saved changes from local to remote repository
+7 - Create Pull Request - That branch is available for review now(1 time for each branch)
+8 - Sent email to reviwer for code review (File changed Path)
+9 - Code review by Niranjan as lead
+10 - Rashmi will fix all those changes (Step 4,5,6,8)
+11 - Niranjan checked all fixes, every is ok then code Merge to remote master
+12 - Niranjan will delete that branch
+
+Scenario 2 - Asha stays in US, Priyanka Stays in India. Both are working on Mediflox
+Asha - US morning 6AM - 3PM, Priyanka - 10AM - 6:00PM
+Login Feature - Day 1 - Locator, TestData
+		Day 2 - Action, Test
+
+Steps:-
+1 - Priyanka -Create a new Branch - US4567
+2 - Switch to Branch
+3 - Implementation (Locator, Test Data)
+4 - Git Commit
+5 - Git Push - drop and email to Asha with Branch name(US4567_Login_Feature)
+6 - Asha - Create a new branch of same name which priyanka provided
+7 - Switch to branch
+8 - TortoiseGit -> Pull - She will get latest code from remote to local
+9 - Implementation (Action, Test File)
+10 - Git commit
+11 - Git Push
+12 - Create Pull Request - for review
+13 - Drop email for review with file change path
+14 - Niranjan code review
+15 - Merge
+16 - Delete branch
+
+Important task before start your day is
+1 - Switch to master branch
+2 - Tortoise Git -> Pull - from remote master to local. All updates
+
+Scenario 3 - Rahul is automation tester and he is working on medoflox project individually, 
+regularly he has to share his code on github/shared repository. he join recently & already his
+Organization has existing framework.
+
+Niranjan as a lead shared framework repository URl before he starts
+https://github.com/maheshupadhyayn/framework.git
+
+Steps:-
+1 - Git Clone - Bring remote repository to local repository (1 time activity through out carrier with that Org)
+2 - Create new Branch - for new work(inbox)
+3 - Switch to new branch
+4 - Implementation - POM(Locator, Action, Test)
+5 - Git Commit - Save all changes on local branch
+6 - Git Push - Push all saved changes from local to remote repository
+7 - Create Pull Request - That branch is available for review now(1 time for each branch)
+8 - Sent email to reviwer for code review (File changed Path)
+9 - Switch to master (Taken new task)
+10 - Pull latest from master
+11 - Create new branch (compose)
+12 - Switch to branch
+13 - Implementation
+14 - Git commit
+15 - Git Push
+16 - Code review by Niranjan as lead for inbox
+17 - Switch to inbox branch
+18 - Implementation - code fixes
+19 - commit
+20 - Push
+21 - drop email for review
+22 - switch to compose branch
+23 - Implementation continue
+24 - Commit
+25 - Push
+26 - create pull request for compose
+
+11 - Niranjan checked all fixes inbox, every is ok then code Merge to remote master
+12 - Niranjan will delete that branch
+
+
+
+
+
