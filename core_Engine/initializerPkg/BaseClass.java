@@ -20,6 +20,7 @@ import knowledgeware_Page_Tests.StaticDM;
 import web_Common_Function.WebBrowser;
 
 public class BaseClass {
+//I am writing a code to automate GoRestAPI for Get operation
 	public WebDriver driver  = null;
 	public static ExtentTest graphicalTest;
 	public static ExtentReports graphicalReport;
